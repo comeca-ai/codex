@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Paws Grooming</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-blue-50 text-gray-800">
+  <!-- Hero Section -->
+  <header class="bg-blue-500 text-white py-20">
+    <div class="container mx-auto text-center">
+      <img src="https://source.unsplash.com/1200x500/?happy,pets" alt="Happy pets" class="mx-auto mb-4 rounded-lg shadow-lg">
+      <h1 class="text-4xl font-bold mb-2">Happy Paws Grooming</h1>
+      <p class="text-lg">Making every pet look their best!</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto px-4 py-12 space-y-16">
+    <!-- About Us -->
+    <section id="about" class="text-center">
+      <h2 class="text-3xl font-semibold text-blue-600 mb-4">About Us</h2>
+      <p class="max-w-3xl mx-auto">
+        We are a team of passionate groomers dedicated to giving your pets the royal treatment. Our salon is designed with comfort in mind, ensuring a stress-free experience for every cat and dog.
+      </p>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <h2 class="text-3xl font-semibold text-blue-600 mb-8 text-center">Services &amp; Pricing</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white shadow rounded-lg p-6">
+          <h3 class="text-xl font-medium mb-2">Bath &amp; Brush</h3>
+          <p class="mb-4">Includes shampoo, conditioning, and blow dry.</p>
+          <span class="text-yellow-500 font-semibold text-lg">$30</span>
+        </div>
+        <div class="bg-white shadow rounded-lg p-6">
+          <h3 class="text-xl font-medium mb-2">Full Groom</h3>
+          <p class="mb-4">Complete styling with nail trim and ear cleaning.</p>
+          <span class="text-yellow-500 font-semibold text-lg">$55</span>
+        </div>
+        <div class="bg-white shadow rounded-lg p-6">
+          <h3 class="text-xl font-medium mb-2">Puppy Package</h3>
+          <p class="mb-4">Gentle introduction to grooming for young pets.</p>
+          <span class="text-yellow-500 font-semibold text-lg">$40</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="bg-blue-100 py-8 rounded-lg">
+      <h2 class="text-3xl font-semibold text-blue-600 mb-8 text-center">Happy Clients</h2>
+      <div class="space-y-6 max-w-3xl mx-auto">
+        <blockquote class="bg-white p-6 rounded shadow">
+          <p class="mb-2">"My dog always comes home looking amazing!"</p>
+          <cite class="text-sm text-gray-500">&mdash; Jamie L.</cite>
+        </blockquote>
+        <blockquote class="bg-white p-6 rounded shadow">
+          <p class="mb-2">"Friendly staff and great service at a fair price."</p>
+          <cite class="text-sm text-gray-500">&mdash; Alex R.</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section id="booking" class="text-center">
+      <h2 class="text-3xl font-semibold text-blue-600 mb-4">Book an Appointment</h2>
+      <form class="max-w-md mx-auto space-y-4">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full px-3 py-2 border rounded">
+        <input type="email" name="email" placeholder="Email" required class="w-full px-3 py-2 border rounded">
+        <input type="tel" name="phone" placeholder="Phone" required class="w-full px-3 py-2 border rounded">
+        <select name="service" class="w-full px-3 py-2 border rounded">
+          <option>Bath &amp; Brush</option>
+          <option>Full Groom</option>
+          <option>Puppy Package</option>
+        </select>
+        <button type="submit" class="w-full py-2 px-4 bg-yellow-400 text-blue-900 rounded hover:bg-yellow-300">Book Now</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-blue-500 text-white text-center py-4">
+    &copy; 2025 Happy Paws Grooming. All rights reserved.
+  </footer>
+</body>
+</html>
